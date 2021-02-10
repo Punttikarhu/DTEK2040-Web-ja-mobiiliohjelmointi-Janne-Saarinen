@@ -1,0 +1,75 @@
+
+
+body {
+    background-color:rgb(126, 124, 124);
+}
+  
+h3 {
+    color: rgb(22, 25, 207);
+    margin-left: 20px;
+}
+
+.link {
+    color:rgb(187, 16, 50);
+    margin-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+}
+
+.link:hover{color:yellow;}
+
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 40px;
+    font-size: 120%;
+}
+  
+#table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#table tr:nth-child(even){background-color: rgb(235, 18, 18);}
+  
+#table tr:nth-child(odd){background-color: rgb(13, 172, 39);}
+
+#table tr:hover {background-color: rgb(224, 228, 28);}
+  
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4a28c5;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: circle;
+    margin-left: 40px;
+    font-size: 120%;
+}
+
+ul li:nth-child(even){color: yellowgreen;}
+
+ul li:nth-child(odd){color: rgb(24, 13, 231);}
+
+ul li:hover{background-color: rebeccapurple;}
+
+img {
+    margin-left: 40px;
+    width: 25%;
+}
+
+form {
+    margin-left: 40px;    
+}
+
+input[type=submit] {
+    background-color: yellow;
+}
+
+input[type=submit]:hover {
+    background-color: #c52727;
+  }

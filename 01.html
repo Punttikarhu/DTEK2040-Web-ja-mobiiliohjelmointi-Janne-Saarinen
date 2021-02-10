@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="02.css">
+        <title>Exercise 0.1</title>
+    </head>
+    <body>
+        <p>Design a simple HTML page containing at least an anchor (link), a table, a list, an image and
+            a form with some input elements. For instance, this page can represent a form which can be
+            used for ordering products from a web store. You can leave the "action" attribute of the form
+            undefined.</p>
+
+        <p>Add some styling to the web page you made in the previous exercise by using CSS. Adjust at least the following things:
+
+            Define a style rule that changes the appearance of an anchor (link) when you hover mouse over it.
+            Write styles for lists and tables, then use specificity to make one row or cell in your table (or one item in your list) appear different from other.
+            Use the id and class selectors when defining the styles. Experiment different ways of positioning elements and adjusting their size.</p>
+        <h3>Anchor (link)</h3>
+        <a class="link" href="https://google.com">google</a>
+        <h3>Table</h3>
+        <table id="table"> 
+            <tr>
+                <th>th</th>
+                <th>th</th>
+                <th>th</th>
+                <th>th</th>
+                <th>th</th>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+                <td>td</td>
+            </tr>
+        </table>
+        <h3>List</h3>
+        <ul>
+            <li>
+                item
+            </li>
+            <li>
+                item
+            </li>
+            <li>
+                item
+            </li>
+            <li>
+                item
+            </li>
+            <li>
+                item
+            </li>
+        </ul>
+        <h3>Image</h3>
+        <img src="image.png">
+        <h3>Form</h3>
+        <form action=>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" value=""><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value=""><br><br>
+            <input type="submit" value="Submit">
+        </form>           
+    </body>
+</html>
