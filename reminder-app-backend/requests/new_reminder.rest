@@ -1,0 +1,35 @@
+POST http://localhost:3001/api/reminders
+Content-Type: application/json
+
+{
+   "name": "name",
+   "timestamp":  "2021-13-13T09:00:00.000Z"
+}
+
+###
+//name missing
+POST http://localhost:3001/api/reminders
+Content-Type: application/json
+
+{
+   "timestamp":  "2021-13-13T09:00:00.000Z"  
+}
+
+###
+//timestamp missing
+POST http://localhost:3001/api/reminders
+Content-Type: application/json
+
+{
+   "name": "test name"
+}
+
+###
+// existing name
+POST http://localhost:3001/api/reminders
+Content-Type: application/json
+
+{
+   "name": "Buy some eggs",
+   "timestamp":  "2021-13-13T09:00:00.000Z"  
+}
