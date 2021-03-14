@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/reminders'
+const baseUrl = 'http://localhost:3001/api/reminders'
 
 const getAll = () => {
     return axios.get(baseUrl)
@@ -13,4 +13,4 @@ const deleteEntry = (id) => {
     return axios.delete(`${baseUrl}/${id}`)
 }
 
-export default {getAll, create, deleteEntry}
+export default { getAll, create, deleteEntry }

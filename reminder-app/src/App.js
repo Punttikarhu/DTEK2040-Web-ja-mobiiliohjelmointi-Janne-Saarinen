@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios'
 import ReminderForm from './components/ReminderForm'
 import ViewReminders from './components/ViewReminders'
 import reminderService from './services/reminders'

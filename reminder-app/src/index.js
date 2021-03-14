@@ -9,8 +9,6 @@ const reminders = [
   }
 ]
 
-
-
 ReactDOM.render(
   <React.StrictMode>
     <App reminders={reminders} />
