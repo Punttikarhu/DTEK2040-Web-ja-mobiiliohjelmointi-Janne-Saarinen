@@ -1,4 +1,5 @@
 import axios from 'axios'
+//const baseUrl = '/api/reminders'
 const baseUrl = 'http://localhost:3001/api/reminders'
 
 const getAll = () => {
